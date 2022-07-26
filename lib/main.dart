@@ -42,12 +42,15 @@ void main() {
                   ),
                 ),
               ),
-              Card(
-                child: ListTile(
-                  leading: Icon(Icons.mail),
-                  title: Text(
-                    'samuel.miquel4@gmail.com',
-                    style: TextStyle(color: Colors.teal),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: Card(
+                  child: ListTile(
+                    leading: Icon(Icons.mail),
+                    title: Text(
+                      'samuel.miquel4@gmail.com',
+                      style: TextStyle(color: Colors.teal),
+                    ),
                   ),
                 ),
               ),
